@@ -1,46 +1,127 @@
-# Jaipur AR Frontend
+# Aravalli Intelligence Platform 🌍🌱
 
-This repository contains the frontend codebase for the **Jaipur AR project**.  
-The project is built from scratch with a focus on clean architecture, modern UI, and scalable frontend practices.
-
-All code in this repository has been manually written, structured, and maintained as part of the project development.
+An AI-powered environmental intelligence platform designed to analyze ecological data, monitor sensitive zones, and support sustainable decision-making using modern web technologies.
 
 ---
 
-## Project Overview
+## 🚀 Live Demo
 
-The application is designed to deliver a fast, responsive, and interactive user experience using modern frontend technologies.  
-It follows best practices for component-based development, reusable UI patterns, and performance optimization.
+- **Frontend (Firebase Hosting)**  
+  👉 https://<YOUR-FIREBASE-FRONTEND-URL>
 
----
-
-## Getting Started (Local Setup)
-
-You can run this project locally on your system by following the steps below.
-
-### Prerequisites
-
-Make sure you have the following installed:
-
-- **Node.js** (v18 or later recommended)
-- **npm** (comes with Node.js)
-
-You can install Node.js using **nvm** if needed:  
-https://github.com/nvm-sh/nvm
+- **Backend API (Render)**  
+  👉 https://aravalli-intelligence-platform-b.onrender.com
 
 ---
 
-### Installation Steps
+## 🧠 Key Features
 
-```sh
-# Step 1: Clone the repository
-git clone <YOUR_GIT_URL>
+- 🌿 Environmental zone & area analysis
+- 🤖 AI-based data processing and insights
+- 📊 Interactive dashboards and visualizations
+- 🔥 Firebase-powered secure frontend hosting
+- ☁️ Scalable backend deployed on Render
 
-# Step 2: Move into the project directory
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install dependencies
+## 🛠 Tech Stack
+
+### Frontend
+- React + Vite
+- Tailwind CSS
+- Firebase Hosting
+
+### Backend
+- Node.js
+- Express.js
+- Firebase Admin SDK
+- REST APIs
+
+### Deployment
+- **Frontend:** Firebase Hosting  
+- **Backend:** Render  
+- **Version Control:** Git & GitHub
+
+---
+
+## 📁 Project Structure
+
+root/
+├── frontend/ # React frontend (Firebase deployed)
+│ ├── src/
+│ ├── dist/
+│ └── firebase.json
+│
+├── backend/ # Node.js backend (Render deployed)
+│ ├── src/
+│ │ ├── index.js
+│ │ ├── routes/
+│ │ ├── controllers/
+│ │ └── services/
+│ └── package.json
+│
+└── README.md
+
+yaml
+Copy code
+
+---
+
+## ⚙️ Local Setup (Optional)
+
+### Backend
+```bash
+cd backend
 npm install
-
-# Step 4: Start the development server
+node src/index.js
+Frontend
+bash
+Copy code
+cd frontend
+npm install
+npm run build
 npm run dev
+🔗 API Example
+http
+Copy code
+GET /api/analyze
+GET /api/areas
+
+
+👨‍💻 Team Members
+Mahi Raj
+Ritika
+Mansi
+
+
+🏆 Submission Notes
+Both frontend and backend are fully deployed and live.
+
+This repository contains complete source code.
+
+Designed for hackathon / academic project submission.
+
+📜 License
+This project is created for educational and hackathon purposes.
+
+yaml
+
+---
+
+
+1. `https://jaypur-aravali-antigravity.web.app/` ko apne **actual Firebase URL** se replace karo  
+2. GitHub me paste karo  
+3. Commit & push:
+
+```bash
+git add README.md
+git commit -m "Final README for project submission"
+git push origin main
+Agar chaho to main:
+
+
+
+
+
+
+
