@@ -7,7 +7,7 @@ An AI-powered environmental intelligence platform designed to analyze ecological
 ## 🚀 Live Demo
 
 - **Frontend (Firebase Hosting)**  
-  👉 https://<YOUR-FIREBASE-FRONTEND-URL>
+  👉https://jaypur-aravali-antigravity.web.app
 
 - **Backend API (Render)**  
   👉 https://aravalli-intelligence-platform-b.onrender.com
